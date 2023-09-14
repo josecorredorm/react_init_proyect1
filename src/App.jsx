@@ -6,6 +6,7 @@ import imgref1 from './assets/img/perro1.jpg'
 import imgref2 from './assets/img/perro2.jpg'
 import imgref3 from './assets/img/perro3.jpg'
 import imgref4 from './assets/img/perro5.jpg'
+import Footer from './Components/footer/Footer';
 
 
 const App = () => {
@@ -38,9 +39,7 @@ const App = () => {
       propert="info"
       texto="Cachito"/>
       </main>
-      <footer className='footer'>
-          <p>Patas solidarias <strong>¡Adopta, no compres!</strong> contacto info@patassolidarias.com</p>
-      </footer>
+      <Footer/>
     </>
   )
 }
